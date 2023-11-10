@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/lucashilles/flutter-dev-container
+{
+	"name": "Flutter",
+    "image": "ghcr.io/sambyeol/flutter-devcontainer:3.3",
+    "runArgs": [ "--init" ],
+	// Set *default* container specific settings.json values on container create.
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+            },
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "dart-code.dart-code",
+                "dart-code.flutter"
+            ]
+        }
+
+    }
+}
